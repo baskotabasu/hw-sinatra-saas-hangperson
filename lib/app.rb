@@ -17,7 +17,6 @@ class HangpersonApp < Sinatra::Base
   
   get '/' do
     redirect '/new'
-    
   end
   
   get '/new' do
